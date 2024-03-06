@@ -84,6 +84,7 @@ export const AddBtn = styled.button`
   border: none;
   border-radius: 5px;
   background-color: green;
+  cursor: pointer;
 `;
 
 export const WorkingTodoLayout = styled.div`

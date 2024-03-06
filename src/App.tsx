@@ -42,6 +42,12 @@ function App() {
 
   const addTodo = (event: FormEvent) => {
     event.preventDefault();
+
+    if (!title || !content) {
+      alert('제목과 내용을 입력해주세요.');
+      return;
+    }
+
     const newTodo: TodoType = {
       id: Date.now(),
       title: title,

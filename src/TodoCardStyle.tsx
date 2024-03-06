@@ -32,6 +32,7 @@ export const DeleteBtn = styled.button`
   height: 35px;
   border: 3px solid red;
   border-radius: 5px;
+  cursor: pointer;
 `;
 
 export const DoneBtn = styled.button`
@@ -40,6 +41,7 @@ export const DoneBtn = styled.button`
   margin-left: 5px;
   border: 3px solid green;
   border-radius: 5px;
+  cursor: pointer;
 `;
 
 export const DoneBtns = styled.div`
@@ -56,4 +58,5 @@ export const CancelBtn = styled.button`
   margin-left: 5px;
   border: 3px solid green;
   border-radius: 5px;
+  cursor: pointer;
 `;
